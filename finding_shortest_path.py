@@ -48,15 +48,3 @@ source = int(input("Enter the source node index: "))
 destination = int(input("Enter the destination node index: "))
 result = dijkstra(matrix, source, destination)
 print(result)
-
-#Output
-"""Enter the number of nodes: 4
-Enter the adjacency matrix row by row. Use 'inf' for infinity.
-Enter row 1: 0 5 10 inf
-Enter row 2: inf 0 2 7
-Enter row 3: inf inf 0 1
-Enter row 4: inf inf inf 0
-Enter the source node index: 0
-Enter the destination node index: 3
-The Shortest Path from A to D is A->B->C->D
-Shortest Distance from A to D is: 8"""
